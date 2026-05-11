@@ -29,7 +29,7 @@ You find the models for 16 GB from https://ltxworkflow.com/models and https://hu
 
 ## LoRA's metadata 
 
-(Not a Werkflow or Node!) A Python script for reading LoRa metadata. 
+read_lora_metadata.py is not a Workflow or Node!,  it's Python script for reading LoRa metadata. 
 
 """
 Requirements:
