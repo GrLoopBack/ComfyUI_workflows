@@ -27,7 +27,7 @@ You find the models for 16 GB from https://ltxworkflow.com/models and https://hu
 
 # Other tools. 
 
-## LoTa's metadata 
+## LoRA's metadata 
 
 (Not a Werkflow or Node!) A Python script for reading LoRa metadata. 
 
