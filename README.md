@@ -1,6 +1,8 @@
-# ComfyUI workflows
+# ComfyUI workflows and other tools
 
-ComfyUI Workflows with Flux1 and Flux2, dev, klein. 
+ComfyUI Workflows with Flux1 and Flux2, dev, klein and other useful tools. 
+
+
 
 ## Flux2 workflows 
 
@@ -23,3 +25,26 @@ python3.13 -m venv comfy-env && source comfy-env/bin/activate && comfy launch --
 ```
 You find the models for 16 GB from https://ltxworkflow.com/models and https://huggingface.co/Kijai/LTX2.3_comfy 
 
+# Other tools. 
+
+## LoTa's metadata 
+
+(Not a Werkflow or Node!) A Python script for reading LoRa metadata. 
+
+"""
+Requirements:
+    pip install safetensors
+
+---------------------
+Reads and displays metadata from a LoRA .safetensors file.
+Extracts: 
+* base model/architecture,
+* trigger words,
+* training info,
+* tensor shapes,
+* and any other embedded metadata.
+
+Usage:
+    python read_lora_metadata.py path/to/your/lora.safetensors
+
+"""
